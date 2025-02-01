@@ -1,0 +1,27 @@
+.announcement-container{
+    position:relative;
+    background-color:#000;
+}
+
+.announcement-container > p {
+    color:white;
+    padding: 10px;
+}
+
+.announcement-container > p > span{
+    text-decoration:underline;
+    text-underline-offset:4px;
+    text-decoration-thickness:1px;
+}
+
+.icon{
+    position:absolute;
+    right:10px;
+    top:10px;
+    fill:#fff;
+    cursor:pointer;
+}
+
+.icon > img{
+    fill:#fff;
+}

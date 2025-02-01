@@ -1,0 +1,45 @@
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:20px 0;
+}
+
+.nav-brand{
+    display:flex;
+    align-items:center;
+}
+
+.logo-wrapper{
+    display:flex;
+    align-items:center;
+}
+
+.nav-links{
+    display:flex;
+    justify-items: flex-start;
+    justify-content: space-around;
+}
+
+.nav-links > li{
+    list-style: none;
+    padding: 0 10px;
+}
+
+.nav-action{
+    display:flex;
+    align-items:center;
+    justify-content: space-around;
+    gap: 15px;
+}
+
+.search-container{
+    flex: 1;
+    max-width: 600px;
+    min-width: 400px;
+    margin: 0 1rem;
+    position: relative;
+
+}
+
+
