@@ -2,8 +2,8 @@
   display: flex;
   gap: 40px;
   width: 100%;
-  padding: 23.5px 100px;
-  height: 95px;
+  padding: 2.35rem 10rem;
+  height: 9.5rem;
   background-color: green;
   font-family: 'Satoshi', sans-serif;
 }
@@ -13,26 +13,28 @@
   align-items: center;
   gap: 40px;
   padding: 13px 0;
+  flex-wrap: wrap;
 }
 
 .mainMenu {
   display: flex;
 }
 
-.mainMenu>ul {
+.mainMenu> ul {
   color: aliceblue;
   list-style: none;
   display: flex;
   gap: 24px;
 }
 
-.mainMenu>ul>li>a {
+.mainMenu> ul> li> a {
   cursor: pointer;
   text-decoration: none;
-  color: aliceblue;
+  color: #000;
   font-family: 'Satoshi', sans-serif;
   font-weight: 500;
   font-size: 16px;
+  text-wrap: nowrap;
 }
 
 .userActions {
