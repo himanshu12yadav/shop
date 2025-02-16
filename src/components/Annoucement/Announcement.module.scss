@@ -1,0 +1,37 @@
+.announcement {
+  width: 100%;
+  background: #000;
+  height: 3.8rem;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 1rem 12rem;
+
+  &>p {
+    font-size: 1.4rem;
+    text-align: center;
+    width: 100%;
+  }
+
+
+  @media (max-width: 768px) {
+    padding: 1rem 0;
+  }
+
+  &>svg {
+    position: absolute;
+    right: 12rem;
+    cursor: pointer;
+
+    @media (max-width: 768px) {
+      right: 7rem;
+    }
+
+    @media (max-width: 600px) {
+      display: none;
+    }
+
+  }
+
+}

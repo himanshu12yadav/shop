@@ -1,0 +1,100 @@
+.header {
+  height: 66.7rem;
+
+  &__wrapper {
+    position: relative;
+    z-index: 10;
+
+    &--content {
+      padding: 8rem 0 2rem 8rem;
+      position: absolute;
+      display: flex;
+      max-width: 60rem;
+      flex-direction: column;
+
+      z-index: 100;
+
+
+      &--title {
+        font-family: Integral CF;
+        font-size: 6.4rem;
+        font-weight: bold;
+        line-height: 1.2;
+        margin-bottom: 1rem;
+        color: #000;
+      }
+
+      &--description {
+        font-size: 1.6rem;
+        line-height: 1.5;
+        margin-bottom: 1.5rem;
+        color: #555;
+      }
+
+      &--cta {
+        width: 21.0rem;
+        height: 5.2rem;
+        padding: 0.75rem 1.5rem;
+        font-size: 1rem;
+        font-weight: bold;
+        color: #fff;
+        background: linear-gradient(45deg, #ffcc00, #ff9900);
+        border: none;
+        border-radius: 25px;
+        cursor: pointer;
+        margin-bottom: 2rem;
+        transition: transform 0.2s ease;
+
+        &:hover {
+          transform: scale(1.05);
+          box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        }
+      }
+
+      &--stats {
+        display: flex;
+        flex-direction: row;
+
+
+
+        &__stat {
+          display: flex;
+          flex-direction: column;
+
+          flex: 1;
+
+          &:not(:last-child) {
+            margin-right: 2rem;
+            border-right: 1px solid #ccc;
+            padding-right: 1.6rem;
+          }
+
+          &--number {
+            font-size: 4.0rem;
+            font-weight: bold;
+            color: #000;
+          }
+
+          &--label {
+            font-size: 1.6rem;
+            color: #777;
+            font-family: 'Satoshi';
+            font-weight: regular;
+          }
+        }
+
+      }
+
+    }
+
+    &--img {
+      position: absolute;
+      object-fit: fill;
+      width: 100%;
+      z-index: 1;
+
+    }
+  }
+
+
+}

@@ -1,6 +1,7 @@
 import Announcement from './components/Annoucement/Announcement';
-import './App.css';
 import Navigation from './components/Navigation/Navigation';
+import Header from './components/Header/Header';
+import './App.scss';
 
 function App() {
 
@@ -9,6 +10,7 @@ function App() {
       <main className='container'>
         <Announcement />
         <Navigation />
+        <Header />
       </main>
     </>
   )
